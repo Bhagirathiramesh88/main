@@ -1,1 +1,13 @@
-print('hi')
+"""
+ARS Pharma Virtual Sales Rep Assistant — Getting Started
+
+This script demonstrates basic usage of the assistant module.
+"""
+
+from assistant import get_single_response
+
+# Example: Ask about a prior authorization workflow
+response = get_single_response(
+    "What are the typical steps for submitting a prior authorization for a specialty medication?"
+)
+print(response)
